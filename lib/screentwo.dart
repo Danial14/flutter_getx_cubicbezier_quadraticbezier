@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_practice_two/screen_four.dart';
 import 'package:getx_practice_two/screenfive.dart';
+import 'package:getx_practice_two/screensix.dart';
 import 'package:getx_practice_two/screenthree.dart';
 
 class ScreenTwo extends StatelessWidget {
@@ -44,6 +45,12 @@ class ScreenTwo extends StatelessWidget {
               child: Text("Screen five"),
               onPressed: (){
                 Get.to(CustomContainerTwo());
+              },
+            ),
+            TextButton(
+              child: Text("Screen six"),
+              onPressed: (){
+                Get.to(BackDropFilterTest());
               },
             )
           ],
